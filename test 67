@@ -1,0 +1,23 @@
+print('Программа чтобы выводить питон в терминал! ')
+fa = input('(y/n) (default y): ')
+a = 'error '
+b = 'python'
+c = 'ok'
+
+if fa == 'y':
+    for ee in b:
+        print(ee)
+elif fa == '':
+    for ee in b:
+        print(ee)
+elif fa == 'n':
+    for bb in c:
+        print(bb)
+elif fa == 'no':
+    while a == 'error ':
+        for fg in 'error':
+            print(tuple(fg * 10))
+        break
+else:
+    for el in a:
+        print(el)
